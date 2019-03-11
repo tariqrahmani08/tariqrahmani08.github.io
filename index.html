@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="chatRoom.css" />
+  </head>
+  <body>
+
+    <div class="containerMain">
+
+      <div class="containerLeft">
+        <div class="showMessage">
+          <h1 class = "Title">Chat Room</h1>
+          <div id="messageLog">
+
+          </div>
+        </div>
+
+        <div class="sentMessage">
+          <input type="text" id="writeMessage" placeholder="Enter message">
+          <div class="sendButtonDiv"><button class="sendButton">SEND</button></div>
+
+        </div>
+
+      </div>
+
+      <div class="containterRight">
+
+        <div class="showOnline">
+          <h1 class = "Title">Friends Online</h1>
+          <div class="showUsers">
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+  <script src='sockets.js'></script>
+  </body>
+</html>
